@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Segment structure visualiser</title>
+        
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="bower_components/fancytree/dist/skin-bootstrap/ui.fancytree.min.css">-->
+        <link rel="stylesheet" href="bower_components/fancytree/dist/skin-win8/ui.fancytree.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="tree"></div>
+        
+        <script src="bower_components/jquery/dist/jquery.min.js"></script> <!-- jquery -->
+        <script src="bower_components/jquery-ui/jquery-ui.min.js"></script> <!-- jquery-ui -->
+        <script src="bower_components/fancytree/dist/jquery.fancytree-all.min.js"></script> <!-- fancytree -->
+        <script src="converter.js"></script> <!-- converter.js: generate data for tree from message templates file -->
+        <script>
+            console.debug("Tree Data!");
+            console.dir(treeData);
+            $(document).ready(function() {
+                $("div#tree").fancytree({
+                    "source": treeData
+                });
+            });
+        </script>
+    </body>
+</html>

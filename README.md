@@ -1,8 +1,11 @@
 # hl7-2.5-segment-tree
 A simple module to quickly see the structure of the HL7 segments
 
+## Setup
+Run `bower install` to get the necessary modules.
+
 ## How to run it
-Simply run `bower install` to get the necessary modules, then open `index.html` in a browser.
+Open `index.html` in a browser.
 
 ## Legend
 Required fields in a segment are marked in *bold* and with a reddish background.
