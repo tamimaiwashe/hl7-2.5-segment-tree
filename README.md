@@ -9,7 +9,7 @@ Open `index.html` in a browser.
 
 ## Legend
 Required fields in a segment are marked in **bold** and with a reddish background.
-Repeatable fields have an round arrow icon next to them.
+Repeatable fields have a round arrow icon next to them.
 
 ## Issues
 Please contact Tami Maiwashe (tmaiwashe@csir.co.za) if you encounter any bugs or would like to suggest more features for the tree.
