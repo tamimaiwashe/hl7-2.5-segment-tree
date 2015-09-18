@@ -8,7 +8,7 @@ Run `bower install` to get the necessary modules.
 Open `index.html` in a browser.
 
 ## Legend
-Required fields in a segment are marked in *bold* and with a reddish background.
+Required fields in a segment are marked in **bold** and with a reddish background.
 Repeatable fields have an round arrow icon next to them.
 
 ## Issues
